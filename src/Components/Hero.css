@@ -1,0 +1,86 @@
+.hero {
+    background-color: #eef3f7;
+    padding: 130px 20px;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+.text-content {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text-content .intro {
+    font-size: 8rem;
+    margin: 0 15 10px;
+    color: #333;
+  }
+  
+  .text-content .name {
+    font-size: 9rem;
+    margin: 0;
+    font-weight: 700;
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .text-content .role {
+    font-size: 8rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  .download-resume {
+    display: inline-block;
+    /* margin-top: 20px; */
+    font-weight: 500;
+    color: #111;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .download-resume:hover {
+    color: #555655;
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .image-content img {
+    width: 90%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .role-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .download-resume {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .role-menu a svg {
+    font-size: 1.5rem;
+    color: #0A66C2; /* LinkedIn blue */
+    transition: transform 0.2s ease;
+  }
+  
+  .role-menu a svg:hover {
+    transform: scale(1.1);
+  }
+  
